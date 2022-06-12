@@ -1,0 +1,82 @@
+<!Doctype html>
+<html>
+<head>
+<title>CATCHME IF YOU CAN</title>    
+<meta name = "viewport" content="width=device-width, initial-scale-1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href ="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/bird.jpg"><a/>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Events</a></li>
+                    <li><a href=''>Services</a></li>
+                    <li><a href="">Support</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <img src="images/moon.jpg" id="icon"
+                </ul>
+                >
+            </div>bbbbb
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>NOT ALLOTED</h1>
+        <h2>Leader_in_Digital_Designs</h2>
+            
+        <a href="" class="hero-btn">Clilck_Here_To_Know_More</a>
+    </div>
+
+</section>
+        
+<!------ course ------------>
+<section class ="services">
+<h1>services</h1>
+    <p> HiddenForm _ Product Deveopment </p>
+</section>
+<form name="selectForm">
+    <label for="musicTypes">Choose some music types, then click the button below:</label>
+    <select id="musicTypes" name="musicTypes" multiple>
+      <option selected>R&B</option>
+      <option>Jazz</option>
+      <option>Blues</option>
+      <option>New Age</option>
+      <option>Classical</option>
+      <option>Opera</option>
+    </select>
+    <button id="btn" type="button">How many are selected?</button>
+  </form>
+  
+
+<!--------Javascript function for Toggle menu -------------->
+<script>
+    
+    var navlinks=document.getElementById("navlink");
+    
+    function showMenu()
+    {
+        navlinks.style.right="0";
+    }
+    
+    function hideMenu()
+    {
+        navlinks.style.right="-200px"; 
+    }
+</script>
+
+ 
+
+</body>
+
+</html>

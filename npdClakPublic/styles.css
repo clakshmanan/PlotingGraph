@@ -1,0 +1,140 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+body{     
+	margin: 0;
+	background-color: dimgray;
+	-webkit-backgroung-size:  cover;
+	background-size: cover;
+	font-family: Poppins;
+}
+
+.wrapper{
+	 border: none;
+  	 background: transparent;
+    outline: none;
+    height: 30px;
+    font-size: 16px;
+    opacity: 1;
+    color: black;
+    text-align: left;
+}
+.wrapper input[type=text], .wrapper input[type =password] {
+    width: 250px;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    opacity: 1;
+    color: black;
+    text-align: left;
+    background-color: white;
+
+}
+
+.form-box{
+	margin: 6% auto;
+	width: 380px;
+	height: 480px;
+	position: relative;
+	margin: 6% auto;
+	background: #fff;
+	padding: 5px;
+	background: grey;
+	box-shadow: 8px 8px 50px cyan;
+	overflow: hidden;
+}
+.button-box{
+
+	margin: 55px auto;
+	width: 220px;
+   position: relative;
+   border-radius: 30px;
+}
+
+.toggle-btn{
+	
+	width: 70%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	border: 0;
+	background: linear-gradient(to right, #ff105f, #ffad06);
+	outline: none;
+	position: relative;
+	color: white;
+	border-radius: 30px;
+	margin-top: 10%;
+	font-weight: bold;
+
+}
+
+
+.input-group{
+	margin-top: 1%;
+	margin-left: 4%;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+	margin-right: 13px;
+
+ }
+ .textbox{
+	font-size: 20px;
+	width: 280px;
+	margin: 8px 0;
+	overflow: hidden;
+	padding: 8px 0;
+	border-bottom: 1px solid;
+
+
+ }
+
+.reset-btn{
+	width: 50%;
+	padding: 10px 20px;
+   cursor: pointer;
+   display: block;
+	margin: auto;
+	background: linear-gradient(to right, #ff105f, #ffad06);
+	border: 0;
+	outline:  none;
+	border-radius: 30px;
+	margin-top: 5%;
+	font-weight: bold;
+}
+.submit-btn{
+	width: 50%;
+	padding: 10px 20px;
+   cursor: pointer;
+   display: block;
+	margin: auto;
+	background: linear-gradient(to right, #ff105f, #ffad06);
+	border: 0;
+	outline:  none;
+	border-radius: 30px;
+	margin-top: 10%;
+	font-weight: bold;
+}
+
+.check-box{
+	margin: 30px 10px 30px 0;
+}
+.span{
+	color: #777;
+	font-size: 12px;
+	bottom: 68px;
+	position: absolute;
+}
+#login{
+	
+	left: 50px;
+}	
+#register{
+	left: 80px;
+}

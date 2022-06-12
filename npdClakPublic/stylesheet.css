@@ -1,0 +1,247 @@
+/*index.html code start*/
+.wrapper{
+    width: 400px;
+    height: 420px;
+    color: purple;
+    top: 50%;
+    left: 50%;
+    padding: 60px 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 8px 8px 50px cyan;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-bottom: 8%;
+    font-family: Courgette;
+}
+.wrapper input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.wrapper input[type=submit]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: black;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.wrapper input[type=text], .wrapper input[type =password]{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    outline: none;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    height: 30px;
+    font-size: 16px;
+    opacity: 1;
+    color: #ccc;
+    text-align: left;
+}
+
+.wrapper input[type=submit]:hover{
+    cursor: pointer;
+}
+.wrapper a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+    opacity: 0.8;
+}
+.wrapper a:hover{
+    color: #fff;
+    opacity: 1;
+}
+.bottom-text{
+    color: #fff;
+}
+.bottom-text input{
+    width: 10%;
+    float: left;
+}
+.bottom-text a{
+    float: right;
+}
+.socials{
+    margin-top: 8%;
+    text-align: center;
+}
+.socials a{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.socials a:nth-child(1){
+    background: #3b5998;
+}
+.socials a:nth-child(2){
+    background: #55acee;
+}
+.socials a:nth-child(3){
+    background: #bd081c;
+}
+.socials a:nth-child(4){
+    background: #0077b5;
+}
+.socials a i{
+    padding: 8px 0;
+}
+#overlay-area{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -5;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
+*
+{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*index.html code End*/
+/*design.html code Start*/
+
+.full-page{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(download2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav ul li 
+{
+    display: inline-block;
+    margin-right: 70px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+nav ul li button:hover
+{
+    color: aqua;
+}
+nav ul li a:hover
+{
+    color: cyan;s
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 210px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: center;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+/*.a11{
+    height: 500px;
+    padding-left: 100px;
+}*/
+
+.dropdown-content {
+  background-color: white;
+  width: 210px;
+  height: 500px;
+  overflow: scroll;
+}
+
+/*design.html code End*/
+/*part.html code Start*/
+
+
+<style>
+      div {
+        margin-bottom: 10px;
+      }
+      label {
+        display: inline-block;
+        width: 150px;
+        text-align: left;
+    }
+.header{
+    min-height: 50vh;
+    width: 100%;
+    background-image: url(download46.jpg);
+    background-position: center;
+    background-size: cover; 
+    position: relative;
+}
+.links{
+    flex: 1;
+    text-align: left;
+    background-color: lightgray;
+}
+.links ul li{
+    list-style: none;
+    display: inline-block;              
+    padding: 3px 4px;
+    position: relative;
+}
+.links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;                                                                                                                                                                      
+}
+.a1{
+    height: 350px;
+    padding-right: 100px;
+    padding-left: 100px;
+}                                                                                                                                                                                                                                                                                         
+.s1{
+    height: 500px;
+    padding-center: 300px;
+    background-color: lightgray;
+    font-size: 20px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid black;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+/*part.html code End*/
+
+.preview{
+    height: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
